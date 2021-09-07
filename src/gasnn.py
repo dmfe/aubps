@@ -32,7 +32,7 @@ value = "12000" # place here day value
 
 class GASNN:
 
-  def run(self):
+  def execute(self):
     error = None
 
     with WebDriver() as wd:

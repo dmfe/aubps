@@ -35,7 +35,7 @@ night_value = "5000" # place here night value
 
 class TNS:
 
-  def run(self):
+  def execute(self):
     with WebDriver() as wd:
 
       # Navigate to utility resource
